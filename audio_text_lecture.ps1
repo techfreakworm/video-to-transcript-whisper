@@ -1,6 +1,6 @@
 # Set the input and output directories
-$inputDir = "C:\Users\techfreakworm\Projects\lab_notebooks\Chitkara\audio"
-$outputDir = "C:\Users\techfreakworm\Projects\lab_notebooks\Chitkara\lecture_subs"
+$inputDir = "C:\Users\Priya\video-to-transcript-whisper\lecture_audio"
+$outputDir = "C:\Users\Priya\video-to-transcript-whisper\lecture_subs"
 
 # Check if Whisper is installed
 if (-not (Get-Command whisper -ErrorAction SilentlyContinue)) {

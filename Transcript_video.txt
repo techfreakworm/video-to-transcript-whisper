@@ -1,0 +1,37 @@
+Transcript video
+
+Jupiter open
+Open Video transcript folder
+Number wise sort downloaded lecture videos
+Put all videos in one folder
+Change path name (folder name) in "video to audio notebook"
+Run the entire code in notebook for "video to audio noteboook"
+
+
+Audio to Text (not podcast)
+Open new powershell
+Actiavet Jupiter Python Virtual environment 
+cd venv\jupyter\Scripts\
+./Activate.ps1
+cd C:\Users\Priya\video-to-transcript-whisper
+
+Navigate to Jupiter again and check transcripts done in lecture_subs folder, then remove the audio file from lecture audio folder whose transcription is complete
+Close Jupiter process, not just tab, command promt as well
+.\audio_text_lecture.ps1
+Run subs_combine notebook to combine all transcripts to single file called lectures.txt
+
+
+For Audio Podcasts
+download audios from LMS (ctrl+shift+c)
+Links will be grabbed by JDownloader
+Download the audios in JDownloader
+Rename the files in Podcast_audio folder in laptop folder (video-to-transcript-whisper)
+Open new powershell
+Actiavet Jupiter Python Virtual environment 
+cd venv\jupyter\Scripts\
+./Activate.ps1
+cd C:\Users\Priya\video-to-transcript-whisper
+.\audio_text_podcast.ps1
+Subtitles will come up in podccasts_subs folder
+run subs_combine notebook (only cells related to podcast)
+You will get the merged podcasts in podcasts.txt

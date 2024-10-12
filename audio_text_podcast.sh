@@ -32,3 +32,4 @@ do
 done
 
 echo "All subtitles have been generated."
+
